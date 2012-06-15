@@ -1,1 +1,1 @@
-from readonlydb_testrunner.test_runner import ByPassableDBDjangoTestSuiteRunner as TestRunner
+from use_live_db.test_runner import ByPassableDBDjangoTestSuiteRunner as TestRunner
