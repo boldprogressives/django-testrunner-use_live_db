@@ -3,7 +3,7 @@ import sys, os
 
 version = '0.1'
 
-setup(name='django-readonlydb_testrunner',
+setup(name='django-testrunner-use_live_db',
       version=version,
       description="Test against your live database connections with this custom Django testrunner",
       long_description="",
