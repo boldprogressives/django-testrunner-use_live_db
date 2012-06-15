@@ -1,0 +1,1 @@
+from readonlydb_testrunner.test_runner import ByPassableDBDjangoTestSuiteRunner as TestRunner
