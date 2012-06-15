@@ -40,7 +40,7 @@ class ByPassableDBDjangoTestSuiteRunner(DjangoTestSuiteRunner):
         for signature, (db_name, aliases) in dependency_ordered(test_databases.items(), dependencies):
             # Actually create the database for the first connection
             connection = connections[aliases[0]]
-            if connection.settings_dict.get("BYPASS_CREATION"):
+            if connection.settings_dict.get("USE_LIVE_FOR_TESTS"):
                 continue
 
             old_names.append((connection, db_name, True))
