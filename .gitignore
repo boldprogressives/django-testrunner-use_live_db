@@ -1,0 +1,7 @@
+*~
+*pyc
+local_settings.py
+settings_local.py
+*.sqlite
+ve
+*#
